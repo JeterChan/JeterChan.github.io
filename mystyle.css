@@ -1,0 +1,21 @@
+h1:hover{
+	background-color: orange;
+}
+
+.title {
+	font-family: "Courier New", monospace;
+}
+
+.photo {
+	border-radius: 150px;
+	max-width:320px;
+	height:180px;
+}
+
+hr {
+	border-top: 6px dashed red;
+}
+
+h2 {
+	font-style:italic;
+}

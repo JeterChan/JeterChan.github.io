@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My_personal_cv</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="mystyle.css">
+	</head>
+	<body>
+		<div>
+			<h1 class="title">My Curriculum Vitae</h1>
+			<!--用hover，碰到時背景會變橘色-->
+			<!--My Curriculum Vitae字體更改成Courier New-->
+		</div>
+		<hr><!-- 採用虛線及線條變粗-->
+		<table border="2">
+			<caption><h2>About Me</h2></caption><!--h2標籤後的About me變成斜體字-->
+			<thead style="background-color:#FFE681">
+				<tr>
+					<th>My photo</th>
+					<th>Basic information</th>
+					<th>My habbit</th>
+				</tr>
+			</thead>
+			
+			<tbody style="background-color:#AEE1CD">
+				<tr>
+					<td><img class="photo" src="sunny.jpg" alt="sunny day!" ></td>
+					<!--照片邊緣較圓弧且大小調整-->
+					<td>
+						<ul>
+							<li>Name:詹凱程</li>
+							<li>Gender:Male</li>
+							<li>Age:20</li>
+							<li>Phone Number:0910-000-000</li>
+							<li>E-mail:TodayisMonday@gmail.com</li>
+							<marquee><span style="color:red">Live your life like a clock.</span></marquee>
+							<button type="button" onclick="myFunction()">點我拿驚喜</button>
+							<p id="click"></p>
+					</td>
+					<td>
+						<ol>
+							<li>Cooking</li>
+							<li>scuba diving</li>
+							<li>acting</li>
+							<li><a href="https://www.youtube.com/watch?v=_zv8Y94eLYI&ab_channel=%E5%91%8A%E4%BA%94%E4%BA%BAAccusefive" target="_blank">My favorite song</a>
+						</ol>
+					</td>
+				</tr>
+			</tbody>
+	</body>
+		<script>
+			function myFunction() {
+				document.getElementById("click").innerHTML = "被騙了吧 ㄏㄏ";
+			}
+		</script>
+		<script>
+			alert("Welcome to my CV website!")
+		</script>
+</html>
